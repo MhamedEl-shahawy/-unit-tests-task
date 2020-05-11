@@ -5,15 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit --watch",
+    "test:unit": "vue-cli-service test:unit --watchAll",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@vue/cli": "^4.3.1",
     "core-js": "^3.6.4",
-    "flush-promises": "^1.0.2",
     "vue": "^2.6.11",
-    "vue-localstorage": "^0.6.2",
     "vue-router": "^3.1.6"
   },
   "devDependencies": {

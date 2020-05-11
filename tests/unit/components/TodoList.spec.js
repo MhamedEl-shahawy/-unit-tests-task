@@ -30,8 +30,7 @@ describe("Testing TodoList", () => {
     wrapper.setData({
       todos
     });
-
-    // check if the todo is already added
+    
     expect(wrapper.vm.todos).toContainEqual(
       expect.objectContaining({ description: "test todo" })
     );
