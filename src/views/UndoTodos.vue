@@ -22,7 +22,7 @@ export default {
   name: "DoneTodos",
   created() {
     this.todos = JSON.parse(localStorage.getItem("todoItems") || "[]");
-    this.todos = this.todos.filter(todo => todo.completed == true);
+    this.todos = this.todos.filter(todo => todo.completed == false);
   },
   data() {
     return {

@@ -1,8 +1,8 @@
 <template>
- <div>
-  <Navigation/>
-  <router-view/>
- </div>
+  <div>
+    <Navigation />
+    <router-view />
+  </div>
 </template>
 
 <script>
@@ -11,10 +11,8 @@ export default {
   name: "App",
   components: {
     Navigation
-  },
+  }
 };
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

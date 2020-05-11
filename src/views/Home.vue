@@ -1,7 +1,7 @@
 <template>
- <div>
+  <div>
     <todo-list list-name="My to-dos" />
- </div>
+  </div>
 </template>
 
 <script>
@@ -10,9 +10,8 @@ export default {
   name: "Home",
   components: {
     TodoList
-  },
+  }
 };
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

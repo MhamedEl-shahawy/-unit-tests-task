@@ -1,38 +1,38 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from "vue";
+import Router from "vue-router";
 
-const Home = resolve =>{
-  require.ensure(['./views/Home.vue'],()=>{
-      resolve(require('./views/Home.vue'));
+const Home = resolve => {
+  require.ensure(["./views/Home.vue"], () => {
+    resolve(require("./views/Home.vue"));
   });
 };
-const DoneTodos = resolve =>{
-    require.ensure(['./views/DoneTodos.vue'],()=>{
-        resolve(require('./views/DoneTodos.vue'));
-    });
+const DoneTodos = resolve => {
+  require.ensure(["./views/DoneTodos.vue"], () => {
+    resolve(require("./views/DoneTodos.vue"));
+  });
 };
-const Todos = resolve =>{
-    require.ensure(['./views/Todos.vue'],()=>{
-        resolve(require('./views/Todos.vue'));
-    });
+const UndoTodos = resolve => {
+  require.ensure(["./views/UndoTodos.vue"], () => {
+    resolve(require("./views/UndoTodos.vue"));
+  });
 };
 Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'home',
+      path: "/",
+      name: "home",
       component: Home
     },
     {
-        path: '/DoneTodos',
-        name: 'DoneTodos',
-        component: DoneTodos
+      path: "/DoneTodos",
+      name: "DoneTodos",
+      component: DoneTodos
     },
     {
-        path: '/Todos',
-        name: 'Todos',
-        component: Todos
+      path: "/UndoTodos",
+      name: "UndoTodos",
+      component: UndoTodos
     }
   ]
-})
+});

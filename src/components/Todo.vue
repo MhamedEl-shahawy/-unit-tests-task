@@ -1,5 +1,11 @@
 <template>
   <li class="d-flex align-items-center list-group-item">
+    <input
+      class=""
+      type="checkbox"
+      @change="$emit('on-toggle')"
+      :checked="completed"
+    />
     <button
       class="btn border-0 flex-grow-1 text-left shadow-none"
       :class="{ completed }"
@@ -23,7 +29,10 @@
     >
       <span class="fa fa-edit"></span>
     </button>
-    <button @click="$emit('on-delete')" class="btn btn-outline-danger border-0">
+    <button
+      @click="$emit('on-delete')"
+      class="btn btn-outline-danger del-todo border-0"
+    >
       <span class="fa fa-trash"></span>
     </button>
   </li>
@@ -34,7 +43,8 @@ export default {
   data() {
     return {
       isEditing: false,
-      newTodoDescription: ""
+      newTodoDescription: "",
+      message: "Nothing added yet"
     };
   },
   props: {

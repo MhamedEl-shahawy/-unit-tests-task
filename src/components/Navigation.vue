@@ -1,8 +1,8 @@
 <template>
   <div class="topnav">
-    <router-link to="/" tag="a">Home</router-link>
-    <router-link to="/Todos" tag="a">Todos</router-link>
-    <router-link to="/DoneTodos" tag="a">DoneTodos</router-link>
+    <router-link to="/"><a class="nav-item">Home</a></router-link>
+    <router-link to="/UndoTodos"><a class="nav-item">UndoTodos</a></router-link>
+    <router-link to="/DoneTodos"><a class="nav-item">DoneTodos</a></router-link>
   </div>
 </template>
 

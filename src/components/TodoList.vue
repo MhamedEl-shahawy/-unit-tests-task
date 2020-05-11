@@ -40,25 +40,25 @@ export default {
     };
   },
   created() {
-    this.todos = JSON.parse(this.$localStorage.get("todoItems") || "[]");
+    this.todos = JSON.parse(localStorage.getItem("todoItems") || "[]");
   },
   methods: {
     addTodo(newTodo) {
       console.log("set");
       this.todos.push({ description: newTodo, completed: false });
-      this.$localStorage.set("todoItems", JSON.stringify(this.todos));
+      localStorage.setItem("todoItems", JSON.stringify(this.todos));
     },
     toggleTodo(todo, index) {
       this.todos[index].completed = !todo.completed;
-      this.$localStorage.set("todoItems", JSON.stringify(this.todos));
+      localStorage.setItem("todoItems", JSON.stringify(this.todos));
     },
     deleteTodo(deletedTodo) {
       this.todos = this.todos.filter(todo => todo !== deletedTodo);
-      this.$localStorage.set("todoItems", JSON.stringify(this.todos));
+      localStorage.setItem("todoItems", JSON.stringify(this.todos));
     },
     editTodo(todo, newTodoDescription) {
       todo.description = newTodoDescription;
-      this.$localStorage.set("todoItems", JSON.stringify(this.todos));
+      localStorage.setItem("todoItems", JSON.stringify(this.todos));
     }
   },
   components: { Todo, CreateTodo }
