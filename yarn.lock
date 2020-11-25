@@ -6438,11 +6438,6 @@ flow-parser@0.*:
   resolved "https://registry.npm.taobao.org/flow-parser/download/flow-parser-0.124.0.tgz#b0ff07cba91ffe5f58a95867fb86cf0d1bdc37ff"
   integrity sha1-sP8Hy6kf/l9YqVhn+4bPDRvcN/8=
 
-flush-promises@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/flush-promises/download/flush-promises-1.0.2.tgz#4948fd58f15281fed79cbafc86293d5bb09b2ced"
-  integrity sha1-SUj9WPFSgf7XnLr8hik9W7CbLO0=
-
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -7145,9 +7140,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.18.1"
-  resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
-  integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -13532,11 +13527,6 @@ vue-loader@^15.8.3:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-localstorage@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.npm.taobao.org/vue-localstorage/download/vue-localstorage-0.6.2.tgz#7f84c99f4ce0b6be23b16c1fab194d4d67182456"
-  integrity sha1-f4TJn0zgtr4jsWwfqxlNTWcYJFY=
 
 vue-router@^3.1.6:
   version "3.1.6"
