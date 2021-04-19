@@ -6230,7 +6230,7 @@ fd-slicer@~1.1.0:
 
 figgy-pudding@^3.5.1:
   version "3.5.2"
-  resolved "https://registry.npmjs.org/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
   integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
 figures@^1.7.0:
@@ -6437,11 +6437,6 @@ flow-parser@0.*:
   version "0.124.0"
   resolved "https://registry.npm.taobao.org/flow-parser/download/flow-parser-0.124.0.tgz#b0ff07cba91ffe5f58a95867fb86cf0d1bdc37ff"
   integrity sha1-sP8Hy6kf/l9YqVhn+4bPDRvcN/8=
-
-flush-promises@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/flush-promises/download/flush-promises-1.0.2.tgz#4948fd58f15281fed79cbafc86293d5bb09b2ced"
-  integrity sha1-SUj9WPFSgf7XnLr8hik9W7CbLO0=
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -12275,9 +12270,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
@@ -13532,11 +13527,6 @@ vue-loader@^15.8.3:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-localstorage@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.npm.taobao.org/vue-localstorage/download/vue-localstorage-0.6.2.tgz#7f84c99f4ce0b6be23b16c1fab194d4d67182456"
-  integrity sha1-f4TJn0zgtr4jsWwfqxlNTWcYJFY=
 
 vue-router@^3.1.6:
   version "3.1.6"
