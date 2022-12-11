@@ -6438,11 +6438,6 @@ flow-parser@0.*:
   resolved "https://registry.npm.taobao.org/flow-parser/download/flow-parser-0.124.0.tgz#b0ff07cba91ffe5f58a95867fb86cf0d1bdc37ff"
   integrity sha1-sP8Hy6kf/l9YqVhn+4bPDRvcN/8=
 
-flush-promises@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/flush-promises/download/flush-promises-1.0.2.tgz#4948fd58f15281fed79cbafc86293d5bb09b2ced"
-  integrity sha1-SUj9WPFSgf7XnLr8hik9W7CbLO0=
-
 flush-write-stream@^1.0.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/flush-write-stream/-/flush-write-stream-1.1.1.tgz#8dd7d873a1babc207d94ead0c2e0e44276ebf2e8"
@@ -11158,9 +11153,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -13532,11 +13527,6 @@ vue-loader@^15.8.3:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-localstorage@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.npm.taobao.org/vue-localstorage/download/vue-localstorage-0.6.2.tgz#7f84c99f4ce0b6be23b16c1fab194d4d67182456"
-  integrity sha1-f4TJn0zgtr4jsWwfqxlNTWcYJFY=
 
 vue-router@^3.1.6:
   version "3.1.6"
